@@ -29,32 +29,32 @@ tP = uipanel('Parent',fuselageRequirementsTab,'Title','Tailcone','FontSize',12,'
 % Static Texts
 %------------------------------------------------------------------------
     % Fuselage length
-uicontrol('Parent',fuselageParametersTab,'Style','text','String','Fuselage Length','Position',[400 700 100 25],'FontSize',10);
+uicontrol('Parent',fuselageParametersTab,'Style','text','String','Fuselage Length','Position',[400 715 100 25],'FontSize',10);
 %         % Units
-        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[500 680 35 25]);
+        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[462 688 35 25]);
 %     % Fuselage radius
-uicontrol('Parent',fuselageParametersTab,'Style','text','String','Fuselage Radius','Position',[400 630 100 25],'FontSize',10);
+uicontrol('Parent',fuselageParametersTab,'Style','text','String','Fuselage Radius','Position',[400 665 100 25],'FontSize',10);
 %         % Units
-        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[500 610 35 20]);
+        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[462 645 35 20]);
     % Nosecone length
-uicontrol('Parent',fuselageParametersTab,'Style','text','String','Nosecone Length','Position',[600 695 100 25]);
+uicontrol('Parent',fuselageParametersTab,'Style','text','String','Nosecone Length','Position',[600 715 120 25],'FontSize',10);
         % Units
-        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[670 660 35 25]);
+        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[655 688 35 25]);
     % Tailcone length
-uicontrol('Parent',fuselageParametersTab,'Style','text','String','Tailcone Length','Position',[600 630 100 25]);
+uicontrol('Parent',fuselageParametersTab,'Style','text','String','Tailcone Length','Position',[600 665 120 25],'FontSize',10);
         % Units
-        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[670 610 35 25]);
+        uicontrol('Parent',fuselageParametersTab,'Style','text','String','ft','Position',[655 645 35 20]);
 
 % Textboxs
 %--------------------------------------------------------------------------
     % Fuselage length
-uicontrol('Parent',fuselageParametersTab,'Style','edit','String',L,'Position',[430 680 40 25],'Callback',@txtbox_fuseLength_Callback);
+uicontrol('Parent',fuselageParametersTab,'Style','edit','String',L,'Position',[430 695 40 25],'Callback',@txtbox_fuseLength_Callback);
 %     % Fuselage radius
-uicontrol('Parent',fuselageParametersTab,'Style','edit','String',R,'Position',[430 610 40 25],'Callback',@txtbox_fuseRadius_Callback);
+uicontrol('Parent',fuselageParametersTab,'Style','edit','String',R,'Position',[430 645 40 25],'Callback',@txtbox_fuseRadius_Callback);
     % Nosecone length
-uicontrol('Parent',fuselageParametersTab,'Style','edit','String',nL,'Position',[630 680 30 25],'Callback',@txtbox_noseLength_Callback);
+uicontrol('Parent',fuselageParametersTab,'Style','edit','String',nL,'Position',[630 695 30 25],'Callback',@txtbox_noseLength_Callback);
     % Tailcone length
-uicontrol('Parent',fuselageParametersTab,'Style','edit','String',tL,'Position',[630 610 30 25],'Callback',@txtbox_tailLength_Callback);
+uicontrol('Parent',fuselageParametersTab,'Style','edit','String',tL,'Position',[630 645 30 25],'Callback',@txtbox_tailLength_Callback);
 
 % Pushbuttons
 % -------------------------------------------------------------------------
